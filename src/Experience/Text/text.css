@@ -1,0 +1,6 @@
+.about__title,
+.features__title,
+.roadmap__title
+{
+    text-indent: 0;
+}

@@ -1,27 +1,37 @@
 main
 {
-  visibility: hidden;
+    overflow: hidden;
 }
 
-.loader
+.blue rect
 {
-  display: block;
+    fill: #146872 !important;
 }
 
-.burger__item.w--current
+.purple rect
 {
-  pointer-events: none;
+    fill: #4F248B !important;
 }
 
-.burger__item.w--current .h3--84
+.yellow rect
 {
-  color: #7870F1;
+    fill: #DEC655 !important;
+}
+
+.light-blue rect
+{
+    fill: #35CDD7 !important;
+}
+
+.green rect
+{
+    fill: #9AE156 !important;
 }
 
 ::selection
 {
-  background-color: #7870F1;
-  color: white;
-  -webkit-text-fill-color: white;
+  background-color: #9AE156;
+  color: #06000e;
+  -webkit-text-fill-color: #06000e;
   -webkit-text-stroke-color: transparent;
 }

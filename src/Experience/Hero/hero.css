@@ -1,0 +1,18 @@
+.hero.is--invers
+{
+    display: block;
+}
+
+@media screen and (max-width: 991px) 
+{
+    .is--invers .btn
+    {
+        display: none;
+    }    
+
+    .loader,
+    .is--invers
+    {
+        touch-action: none;
+    }
+}

@@ -1,0 +1,23 @@
+.silks__img
+{
+    overflow: hidden;
+}
+
+.silks__img img
+{
+    scale: 1.01;
+    will-change: transform;
+}
+
+@media screen and (min-width: 991px) 
+{
+    .silks__row .silks__img:nth-child(even) img
+    {
+        transform: translateX(10%);
+    }
+    
+    .silks__row .silks__img:nth-child(odd) img
+    {
+        transform: translateX(-10%);
+    }
+}

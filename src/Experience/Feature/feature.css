@@ -1,0 +1,28 @@
+@media screen and (max-width: 991px) 
+{
+    .features__item--descr p
+    {
+        padding-top: 20px;
+    }
+}
+
+.feature__item--btn
+{
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.feature__item--btn p
+{
+    transition: color 0.3s ease;
+}
+
+.features__item.open .feature__item--btn
+{
+    transform: rotate(45deg) !important;
+    background-color: transparent !important;
+}
+
+.features__item.open .feature__item--btn
+{
+    color: #9ae055 !important;
+}

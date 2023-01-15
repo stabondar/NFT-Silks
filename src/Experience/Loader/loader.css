@@ -1,0 +1,5 @@
+.loader__item p
+{
+    position: relative;
+    z-index: 3;
+}

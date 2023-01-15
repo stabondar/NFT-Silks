@@ -1,0 +1,35 @@
+.roadmap__item--btn
+{
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.roadmap__item--btn p
+{
+    transition: color 0.3s ease;
+}
+
+.roadmap__item--date
+{
+    transition: opacity 0.3s ease;
+}
+
+.roadmap__list-item.open .roadmap__item--btn
+{
+    transform: rotate(45deg) !important;
+    background-color: transparent !important;
+}
+
+.roadmap__list-item.open .roadmap__item--btn
+{
+    color: #9ae055 !important;
+}
+
+.roadmap__list-item.open .roadmap__item--date
+{
+    opacity: 1 !important;
+}
+
+.roadmap__item--btm
+{
+    height: 0;
+}

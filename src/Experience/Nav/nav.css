@@ -1,0 +1,37 @@
+.burger.open
+{
+    display: block !important;
+}
+
+.nav__menu-btn.open 
+{
+    display: block !important;
+}
+
+.nav__menu-btn.open *
+{
+    opacity: 1 !important;
+}
+
+.nav.hide
+{
+    display: none;
+}
+
+.nav-parent
+{
+    pointer-events: none;
+}
+
+.nav__logo,
+.nav__menu-btn,
+.burger,
+.cta
+{
+    pointer-events: auto;
+}
+
+/* .nav
+{
+    pointer-events: auto;
+} */
